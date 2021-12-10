@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/shortly/static/css/main.d5de373f.chunk.css",
+    "main.js": "/shortly/static/js/main.131516e1.chunk.js",
+    "main.js.map": "/shortly/static/js/main.131516e1.chunk.js.map",
+    "runtime-main.js": "/shortly/static/js/runtime-main.c60e6313.js",
+    "runtime-main.js.map": "/shortly/static/js/runtime-main.c60e6313.js.map",
+    "static/css/2.383c0125.chunk.css": "/shortly/static/css/2.383c0125.chunk.css",
+    "static/js/2.9ad4ba62.chunk.js": "/shortly/static/js/2.9ad4ba62.chunk.js",
+    "static/js/2.9ad4ba62.chunk.js.map": "/shortly/static/js/2.9ad4ba62.chunk.js.map",
+    "index.html": "/shortly/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/shortly/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.d5de373f.chunk.css.map": "/shortly/static/css/main.d5de373f.chunk.css.map",
+    "static/js/2.9ad4ba62.chunk.js.LICENSE.txt": "/shortly/static/js/2.9ad4ba62.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/shortly/static/media/bg-shorten-desktop.0d9742f4.svg",
+    "static/media/icon-brand-recognition.c349d3b6.svg": "/shortly/static/media/icon-brand-recognition.c349d3b6.svg",
+    "static/media/icon-detailed-records.265c8aea.svg": "/shortly/static/media/icon-detailed-records.265c8aea.svg",
+    "static/media/icon-facebook.229c75a0.svg": "/shortly/static/media/icon-facebook.229c75a0.svg",
+    "static/media/icon-fully-customizable.a1532a74.svg": "/shortly/static/media/icon-fully-customizable.a1532a74.svg",
+    "static/media/icon-instagram.df587328.svg": "/shortly/static/media/icon-instagram.df587328.svg",
+    "static/media/icon-pinterest.a2d25ab4.svg": "/shortly/static/media/icon-pinterest.a2d25ab4.svg",
+    "static/media/icon-twitter.1d5c6d5e.svg": "/shortly/static/media/icon-twitter.1d5c6d5e.svg",
+    "static/media/illustration-working.c9b5ef54.svg": "/shortly/static/media/illustration-working.c9b5ef54.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c60e6313.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.9ad4ba62.chunk.js",
+    "static/css/main.d5de373f.chunk.css",
+    "static/js/main.131516e1.chunk.js"
+  ]
+}
