@@ -20,6 +20,7 @@ function UrlSectionWrapper() {
 					shortenedLink: res.data?.result.full_short_link,
 				};
 				setUrlList((p) => [...(p ?? {}), data]);
+				urlRef.current.value = '';
 			} else {
 				alert('Please Enter Valid URL');
 			}
