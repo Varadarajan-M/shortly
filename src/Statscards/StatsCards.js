@@ -27,6 +27,7 @@ function StatsCards() {
 			{cardData.map((data, index) => {
 				return (
 					<Card
+						key={index}
 						className={`stat-card shadow-md p-4 pt-5 mx-3 ${
 							index > 0 && `stat-card-${index + 1}`
 						}`}
