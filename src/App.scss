@@ -61,6 +61,13 @@ body {
 		.navbar-toggler:focus {
 			box-shadow: none;
 		}
+		.navbar-toggler:not(.collapsed) {
+			.navbar-toggler-icon {
+				background-image: url('./assets//images/icon-cross.svg');
+				background-size: 35px;
+				transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1) !important;
+			}
+		}
 		.action-buttons {
 			.auth-btns {
 				border-radius: 50px;
