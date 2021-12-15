@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shortly/static/css/main.4fbc01fb.chunk.css",
+    "main.css": "/shortly/static/css/main.60a410c0.chunk.css",
     "main.js": "/shortly/static/js/main.3d7a2ce2.chunk.js",
     "main.js.map": "/shortly/static/js/main.3d7a2ce2.chunk.js.map",
     "runtime-main.js": "/shortly/static/js/runtime-main.c60e6313.js",
@@ -10,9 +10,9 @@
     "static/js/2.802d2cac.chunk.js.map": "/shortly/static/js/2.802d2cac.chunk.js.map",
     "index.html": "/shortly/index.html",
     "static/css/2.383c0125.chunk.css.map": "/shortly/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.4fbc01fb.chunk.css.map": "/shortly/static/css/main.4fbc01fb.chunk.css.map",
+    "static/css/main.60a410c0.chunk.css.map": "/shortly/static/css/main.60a410c0.chunk.css.map",
     "static/js/2.802d2cac.chunk.js.LICENSE.txt": "/shortly/static/js/2.802d2cac.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/shortly/static/media/icon-cross.ab45e9ae.svg",
+    "static/media/App.scss": "/shortly/static/media/bg-shorten-desktop.0d9742f4.svg",
     "static/media/icon-brand-recognition.c349d3b6.svg": "/shortly/static/media/icon-brand-recognition.c349d3b6.svg",
     "static/media/icon-detailed-records.265c8aea.svg": "/shortly/static/media/icon-detailed-records.265c8aea.svg",
     "static/media/icon-facebook.229c75a0.svg": "/shortly/static/media/icon-facebook.229c75a0.svg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.c60e6313.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.802d2cac.chunk.js",
-    "static/css/main.4fbc01fb.chunk.css",
+    "static/css/main.60a410c0.chunk.css",
     "static/js/main.3d7a2ce2.chunk.js"
   ]
 }
