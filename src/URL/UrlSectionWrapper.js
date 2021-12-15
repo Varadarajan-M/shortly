@@ -5,6 +5,7 @@ import { makeHttpReq, makeURLOptions, localStorageService } from './helper';
 function UrlSectionWrapper() {
 	const urlRef = useRef(null);
 	const [copyIndex, setCopyIndex] = useState(-1);
+	const [processing, setProcessing] = useState(false);
 
 	const [urlList, setUrlList] = useState(
 		localStorageService.get('urlList') ?? [],
@@ -12,6 +13,7 @@ function UrlSectionWrapper() {
 
 	const shortenUrlHandler = async () => {
 		if (urlRef.current.value.trim().length > 0) {
+			setProcessing(true);
 			const url = `https://api.shrtco.de/v2/shorten?url=${urlRef.current.value}`;
 			const res = await makeHttpReq(url, makeURLOptions({}, 'POST'));
 			if (res?.data?.ok) {
@@ -19,7 +21,7 @@ function UrlSectionWrapper() {
 					orginalLink: res.data?.result.original_link,
 					shortenedLink: res.data?.result.full_short_link,
 				};
-				setUrlList((p) => [...(p ?? {}), data]);
+				setUrlList((p) => [data, ...(p ?? {})]);
 				urlRef.current.value = '';
 			} else {
 				alert('Please Enter Valid URL');
@@ -27,6 +29,7 @@ function UrlSectionWrapper() {
 		} else {
 			alert('URL Cannot be empty');
 		}
+		setProcessing(false);
 	};
 
 	const copyHandler = async (btnIndex, link) => {
@@ -62,6 +65,12 @@ function UrlSectionWrapper() {
 					</Form.Group>
 				</Card>
 			</div>
+
+			{processing && (
+				<div className='text-danger w-50 p-3 text-center processing-text'>
+					Shortening your URL Please wait...
+				</div>
+			)}
 
 			{urlList.length > 0 && (
 				<div className='shortened-urls w-75 mx-3'>

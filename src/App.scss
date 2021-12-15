@@ -144,7 +144,11 @@ body {
 				background-color: $btn-light-cyan;
 			}
 		}
-
+		.processing-text {
+			margin-top: 4rem;
+			position: relative;
+			top: 80px;
+		}
 		.shortened-urls {
 			margin: 0 2rem;
 			margin-top: 8rem;
